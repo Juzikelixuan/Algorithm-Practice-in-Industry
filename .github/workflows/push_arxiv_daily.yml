@@ -13,7 +13,7 @@ jobs:
   daily-push:
     runs-on: ubuntu-latest
     env:
-      SERVERCHAN_API_KEY: ${{ secrets.SERVERCHAN_API_KEY }}
+      SERVERCHAN_API_KEY: ${{ SCT265049TnxHxDIM9fmdrxlqqqQtOFBai }}
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
       QUERY: "cs.IR"
       LIMITS: 5
