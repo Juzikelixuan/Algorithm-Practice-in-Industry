@@ -12,7 +12,7 @@ import datetime
 from tqdm import tqdm
 from translate import translate
 
-SERVERCHAN_API_KEY = os.environ.get("SERVERCHAN_API_KEY", None)
+SERVERCHAN_API_KEY = os.environ.get("SERVERCHAN_API_KEY", "SCT265049TnxHxDIM9fmdrxlqqqQtOFBai")
 QUERY = os.environ.get('QUERY', 'cs.IR')
 LIMITS = int(os.environ.get('LIMITS', 3))
 FEISHU_URL = os.environ.get("FEISHU_URL", None)
